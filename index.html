@@ -49,14 +49,55 @@
     <main class="main container mx-auto p-3">
         <div id="posts">
         </div>
-        <div id="liked">
+        <div id="like">
             <h1>Liked posts</h1>
+            <div id="liked"></div>
         </div>
 
-        <div id="reported">
+        <div id="report">
             <h1>Reported posts</h1>
+            <div id="reported"></div>
         </div>
     </main>
+
+
+    <div class="container">
+        <div class="theory-question">
+            <h5>Q1:জাভাস্ক্রিপ্ট কিভাবে কাজ করে?</h5>
+            <p>
+                JavaScript এমন একটি programming Language,যেখানে এক সময়ে শুধুমাত্র একটি বিবৃতি কার্যকর করা হয়।
+                আর JavaScript-এর এই পদ্ধতিসম্পন্ন programming Language কে Single Threaded Programming Language বলা হয় ।
+                আবার এটি সাধারনত ব্যবহৃত স্ক্রিপ্টিং ভাশাগুলির মধ্যে অন্যতম একটি ক্লায়েন্ট সাইড স্ক্রিপ্টিং ল্যাঙ্গুয়েজ
+                । এখন , ক্লায়েন্ট সাইড স্ক্রিপ্টিং ল্যাঙ্গুয়েজ হল web browser-এর মধ্যে ক্লায়েন্টের যে সাইড রয়েছে সেখানে
+                চলে ,
+                তবে এখানে একটি গুরুত্বপূর্ণ বিষয় হল যে, ক্লায়েন্টের web browser কে JavaScript সমর্থন করতে হবে । <br>
+
+                JavaScript প্রকৃতিগতভাবে অ্যাসিঙ্ক্রোনাস , অর্থাৎ এটি নন-ব্লকিং কোড excution নিশ্চিত করার জন্য designe
+                করানো হয়েছে। নন-ব্লকিং কোডগুলো অন্যান্য কোডের অংশের কাজ করাকে বাধা দেই না।
+                এর মানে হল যে, সার্ভারটিতে একইভাবে কাজ করে, একটি নেটওয়ার্ক অনুরোধের জন্য একটি লুপে অপেক্ষা করে এবং
+                প্রথমটি পরিচালনা করার সময় আরও আগত অনুরোধগুলি গ্রহণ করে।
+            </p>
+        </div>
+        <div class="theory-question">
+            <h5>Q2: লোকাল স্টোরেজ বনাম সেশন স্টোরেজের মধ্যে পার্থক্য?</h5>
+            <p>
+                Local Storage-এর ডাটা browser-এ স্থায়িকভাবে থাকে এবং Session Storage-এর ডাটা browser-এ সাময়িকভাবে থাকে ,
+                অর্থাৎ browser যতক্ষণ থাকবে ততক্ষণ পর্যন্ত Session Storage-এর ডাটা থাকবে ,কিন্তু browser off করলে তা চলে
+                যাবে ।
+                আর Local Storage-এর ডাটা browser যতক্ষণ থাকবে ততক্ষণ পর্যন্ত থাকবে এবং browser off করলে ও তা থাকবে।<br>
+
+                আবার Local Storage এবং Session Storage তাদের উভয়ের প্রায় (5-10) MB সঞ্চয়স্থানের সীমা রয়েছে৷<br>
+
+                আবার Local Storage-এ বা Session Storage-এ কোন নির্দিষ্ট মান রিটার্ন করার জন্য getItem(key) ব্যবহার করা
+                হয় এবং
+                কোন নির্দিষ্ট মান সেট করার জন্য setItem(key, value) ব্যবহার করা হয় ।<br>
+
+                আবার Local Storage-এ বা Session Storage-এ কোন object কে নিয়ে কাজ করতে হলে প্রথমে JSON.parse() করতে হবে
+                এবং
+                কোন object কে সেট করতে হলে প্রথমে JSON.stringify() করতে হবে ।
+            </p>
+        </div>
+    </div>
     <footer></footer>
 
     <!-- add javascript  file  -->

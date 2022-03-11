@@ -238,11 +238,26 @@ img {
   color: gray;
 }
 
-#liked{
+#like{
   display: none;
 }
-#reported{
+#report{
   display: none;
+}
+
+.theory-question h5{
+/* color: brown; */
+color: darkorange;
+}
+.theory-question {
+border: 2px solid darkorange;
+border-radius: 20px;
+margin: 20px;
+padding: 15px;
+}
+.theory-question:hover {
+   background-color: black;
+  color:burlywood;
 }
 
 @media only screen and (max-width: 992px) {
